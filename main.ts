@@ -1,5 +1,5 @@
 joystickbit.initJoystickBit()
-radio.setGroup(9)
+radio.setGroup(32)
 basic.showString("T")
 basic.forever(function () {
     if (joystickbit.getRockerValue(joystickbit.rockerType.X) < 10) {
